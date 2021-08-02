@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="AllTestcase(failed)">
+    <classes>
+      <class name="com.ys.h2hdrx.webmodule.Alltest">
+        <methods>
+          <include name="Freetext"/>
+          <include name="beforeSuite"/>
+          <include name="Medicationhistory"/>
+          <include name="Myprofile"/>
+          <include name="Myprofile_favouritedrug"/>
+          <include name="allergies"/>
+          <include name="Myprofile_setdruginteraction"/>
+          <include name="SendandPrint"/>
+          <include name="ssmedication"/>
+          <include name="Addtomedication"/>
+          <include name="Patientprofile"/>
+          <include name="Myprofile_staffauthorization"/>
+          <include name="Print"/>
+          <include name="Defaultphysician"/>
+          <include name="Rxpad"/>
+          <include name="PatientFavouriteDrug"/>
+          <include name="Rxpad_prescriptionreport"/>
+          <include name="afterSuite"/>
+          <include name="Medication_cancellation"/>
+          <include name="Doctorsaveprescrition"/>
+          <include name="Insurance"/>
+          <include name="PatientSavedPrescription"/>
+          <include name="Patientsearch"/>
+        </methods>
+      </class> <!-- com.ys.h2hdrx.webmodule.Alltest -->
+    </classes>
+  </test> <!-- AllTestcase(failed) -->
+</suite> <!-- Failed suite [Suite] -->
