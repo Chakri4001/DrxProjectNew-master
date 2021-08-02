@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.ys.h2hdrx.webmodule.PendingRefillAlerts">
+      <class name="com.ys.h2hdrx.webmodule.RxfillAlert">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="RefillAlertApproveaction"/>
+          <include name="Rxfillalertview"/>
         </methods>
-      </class> <!-- com.ys.h2hdrx.webmodule.PendingRefillAlerts -->
+      </class> <!-- com.ys.h2hdrx.webmodule.RxfillAlert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

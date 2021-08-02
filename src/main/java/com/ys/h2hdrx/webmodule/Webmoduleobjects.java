@@ -1974,6 +1974,54 @@ public class Webmoduleobjects extends Driver {
 		@FindBy(how = How.XPATH, using = "//*[@id=\"iframePrompt\"]")
         public WebElement Pharmacy_info;
 		
+		//RXfill
+		
+		@FindBy(how = How.XPATH, using = "//a[contains(text(),'Rxfill')]")
+		public WebElement Rxfill_link;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"scrollableTBodyFull\"]/table/tbody/tr[1]/td")
+		public WebElement Rxfill_request;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"scrollableTBodyFull\"]/table/tbody/tr[2]/td[1]")
+		public WebElement selrxfillchk;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"scrollableTBodyFull\"]/table/tbody/tr[2]/td[2]")
+		public WebElement Rxfilldate;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"scrollableTBodyFull\"]/table/tbody/tr[2]/td[3]")
+		public WebElement rxfillpatientname;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"scrollableTBodyFull\"]/table/tbody/tr[2]/td[4]")
+		public WebElement rxfilldrugdesc;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"scrollableTBodyFull\"]/table/tbody/tr[2]/td[5]")
+		public WebElement rxfillstatus;
+		
+		@FindBy(how = How.XPATH, using = "//a[contains(text(),'View RxFill')]")
+		public WebElement view_rxfill_btn;
+		
+		@FindBy(how = How.XPATH, using = "//a[contains(text(),'DispensedDrugInfo')]")
+		public WebElement Dispensed_DrugInfo;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"mainDiv\"]/html:hidden/div[10]/div/a")
+		public WebElement rxf_Pharmacy_info;
+		
+		@FindBy(how = How.LINK_TEXT, using = "<< Back")
+		public WebElement Backbtn;
+		
+		/*Rxfill Alerts*/
+		
+		@FindBy(how = How.XPATH, using = "//a[contains(text(),'Rxfill Alert')]")
+		public WebElement Rxfill_Alert_link;
+		
+		
+		
+		@FindBy(how = How.XPATH, using = "//a[contains(text(),'View RxFillAlert')]")
+		public WebElement view_rxfillAlert_btn;
+		
+		
+		
+			
 }
 
 /*
