@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeTest;
 
 import java.util.List;
 
+import org.apache.poi.hssf.record.PageBreakRecord.Break;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,11 +19,13 @@ public class PendingRefills {
 
 	public WebDriver driver;
 	
-	@Test(priority=41)
+	//@Test(priority=41)
 	public void RefillApproveaction() throws Exception
 	{
 		
 		obj = PageFactory.initElements(driver, Webmoduleobjects.class);
+		
+		
 		obj.Pending_Refills.click();
 		
 		System.out.println("Patient Name:"+obj.PatientRefillReq.getText());
@@ -75,9 +78,10 @@ public class PendingRefills {
 		}
 	}
 	
-	@Test(priority=42)
+	//@Test(priority=42)
 	public void Refilldeniedaction() throws Exception
 	{
+		obj = PageFactory.initElements(driver, Webmoduleobjects.class);
         obj.Pending_Refills.click();
 		
 		System.out.println("Patient Name:"+obj.PatientRefillReq.getText());
@@ -176,6 +180,7 @@ public class PendingRefills {
 	@Test(priority=43)
 	public void RefillReplaceaction() throws Exception
 	{
+		obj = PageFactory.initElements(driver, Webmoduleobjects.class);
 		obj.Pending_Refills.click();
 		
 		System.out.println("Patient Name:"+obj.PatientRefillReq.getText());
@@ -207,13 +212,12 @@ public class PendingRefills {
 			
 			RefillActdrpdwn.selectByIndex(1);
 			
-			Select DenialReasondrpdwn = new Select(obj.DenialReason);
-			
-			DenialReasondrpdwn.selectByIndex(4);
-			
 			obj.RefillSndButton.click();
 			
-			obj.send_close.click();
+			Thread.sleep(10000);
+			
+			obj.confirmPrescription_LinkText.click();
+			 obj.sendtophar_txt.click();
 		}
 		else if(RDD.contains(DD3))
 		{
@@ -221,27 +225,27 @@ public class PendingRefills {
 			
 			RefillActdrpdwn.selectByIndex(1);
 			
-			Select DenialReasondrpdwn = new Select(obj.DenialReason);
-			
-			DenialReasondrpdwn.selectByIndex(4);
 			
 			obj.RefillSndButton.click();
 			
-			obj.send_close.click();
+			Thread.sleep(10000);
+			
+			obj.confirmPrescription_LinkText.click();
+			 obj.sendtophar_txt.click();
+
 		}
 		else if(RDD.contains(DD4))
 		{
 			System.out.println("SCHEDULE IV DRUGS");
 			
-			RefillActdrpdwn.selectByIndex(2);
-			
-			Select DenialReasondrpdwn = new Select(obj.DenialReason);
-			
-			DenialReasondrpdwn.selectByIndex(4);
+			RefillActdrpdwn.selectByIndex(1);
 			
 			obj.RefillSndButton.click();
 			
-			obj.send_close.click();
+			Thread.sleep(10000);
+			
+			obj.confirmPrescription_LinkText.click();
+			 obj.sendtophar_txt.click();
 		}
 		else if(RDD.contains(DD5))
 		{
@@ -249,13 +253,13 @@ public class PendingRefills {
 			
 			RefillActdrpdwn.selectByIndex(1);
 			
-			Select DenialReasondrpdwn = new Select(obj.DenialReason);
-			
-			DenialReasondrpdwn.selectByIndex(4);
 			
 			obj.RefillSndButton.click();
 			
-			obj.send_close.click();
+			Thread.sleep(10000);
+			
+			obj.confirmPrescription_LinkText.click();
+			 obj.sendtophar_txt.click();
 		}
 		
 		else{
@@ -280,7 +284,7 @@ public class PendingRefills {
 		 System.out.println("Pending Refills");
 	      // System.out.println("getDriver"+Driver.getDriver());
 	      us.driver = driver;
-	      us.doctorLogin("NYNAAHA001", "Pass@123");
+	      us.doctorLogin("NYDDWDN001", "Pass@123");
 	      /*PatientSearch ps = new PatientSearch();
 	      ps.driver = driver;
 	      ps.patientSearch();*/

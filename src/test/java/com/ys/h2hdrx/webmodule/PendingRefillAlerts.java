@@ -152,7 +152,7 @@ public class PendingRefillAlerts {
 		 System.out.println("Pending Refill Alerts");
 	      // System.out.println("getDriver"+Driver.getDriver());
 	      us.driver = driver;
-	      us.doctorLogin("NYNWNEA001", "Pass@123");
+	      us.doctorLogin("NYDDWDN001", "Pass@123");
 	      /*PatientSearch ps = new PatientSearch();
 	      ps.driver = driver;
 	      ps.patientSearch();*/

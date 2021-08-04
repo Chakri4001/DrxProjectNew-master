@@ -2019,9 +2019,28 @@ public class Webmoduleobjects extends Driver {
 		@FindBy(how = How.XPATH, using = "//a[contains(text(),'View RxFillAlert')]")
 		public WebElement view_rxfillAlert_btn;
 		
+		//Practice_Fav_Drug
 		
+		@FindBy(how = How.XPATH, using = "//a[contains(text(),'PracticeFavoriteDrugs')]")
+		public WebElement Practice_Favorite_Drugs;
 		
+		@FindBy(how = How.XPATH, using = "//input[@name='DrugName']")
+		public WebElement Fav_Drug_Search;
+		
+		@FindBy(how = How.XPATH, using = "//*[@id=\"scrollableTBodyFull\"]/table/tbody/tr[1]/td[1]")
+		public WebElement Fav_drug_chkbx;
 			
+		@FindBy(how = How.LINK_TEXT, using = "<< Back")
+		public WebElement Fav_Backbtn;
+		
+		@FindBy(how = How.LINK_TEXT, using = "Search")
+		public WebElement Fav_search;
+		
+		@FindBy(how = How.LINK_TEXT, using = "Confirm Favorite Drug(s)")
+		public WebElement Confirm_Favorite_Drug;
+		
+		@FindBy(how = How.LINK_TEXT, using = "Delete Favorite Drug(s)")
+		public WebElement Delete_Favorite_Drug;
 }
 
 /*

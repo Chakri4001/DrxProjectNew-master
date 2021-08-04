@@ -49,7 +49,7 @@ public class RxfillAlert {
 	
 		driver = Driver.browser("web");
 		 UserLogin us = new UserLogin();
-		 System.out.println("Rxfill");
+		 System.out.println("Rxfill Alerts");
 	      // System.out.println("getDriver"+Driver.getDriver());
 	      us.driver = driver;
 	      us.doctorLogin("MIDAWSD001", "Pass@123");
