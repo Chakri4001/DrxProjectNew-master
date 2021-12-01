@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.ys.h2hdrx.webmodule.RxfillAlert">
+      <class name="com.ys.h2hdrx.webmodule.Initiate_epa">
         <methods>
+          <include name="BenefitpatientSearch"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="Rxfillalertview"/>
         </methods>
-      </class> <!-- com.ys.h2hdrx.webmodule.RxfillAlert -->
+      </class> <!-- com.ys.h2hdrx.webmodule.Initiate_epa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

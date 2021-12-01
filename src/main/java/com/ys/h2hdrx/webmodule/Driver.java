@@ -50,7 +50,7 @@ public class Driver {
 		String browser = s.getRow(0).getCell(1).getStringCellValue();
 		
 	if (browser.equalsIgnoreCase("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\ECP-Workstation\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "E:\\ECP-Workstation\\chromedriver.win\\chromedriver.exe");
 			driver = new ChromeDriver(); 
 			
 			

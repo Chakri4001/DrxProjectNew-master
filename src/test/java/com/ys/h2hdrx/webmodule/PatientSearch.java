@@ -133,11 +133,11 @@ public class PatientSearch {
 
 	@BeforeTest
 	public void beforeTest() throws Exception {
-//		driver = Driver.browser("web");
-//		UserLogin us = new UserLogin();
-//		 //System.out.println("getDriver"+Driver.getDriver());
-//		us.driver = driver;
-//		us.doctorLogin("MIDANAR001", "Pass@123");
+		driver = Driver.browser("web");
+		UserLogin us = new UserLogin();
+		//System.out.println("getDriver"+Driver.getDriver());
+		us.driver = driver;
+		us.doctorLogin("NYDDWDN001", "Pass@123");
 	}
 
 	@AfterTest

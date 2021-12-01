@@ -80,7 +80,7 @@ public class PendingRefillAlerts {
 		obj.RefillAlertchk.click();
 		obj.ViewAlert.click();
 		
-		//obj.send_close.click(); 
+		obj.send_close.click(); 
 		Thread.sleep(3000);
 		
 		
@@ -105,7 +105,10 @@ public class PendingRefillAlerts {
 		
 		obj.RefillAlertchk.click();
 		obj.ViewAlert.click();
-				
+		
+		obj.send_close.click(); 
+		Thread.sleep(5000);
+		
 		String s5 =obj.RefillSchType.getText();
 		String s6 ="[Schedule II Drug]";
 		String s7 ="[Schedule III Drug]";

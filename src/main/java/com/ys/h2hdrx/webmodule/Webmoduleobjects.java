@@ -718,6 +718,13 @@ public class Webmoduleobjects extends Driver {
 
 	@FindBy(how = How.NAME, using = "lastName")
 	public WebElement patientsearch_lastname_txt;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='scrollableTBodyThreeFourth']/table/tbody/tr/td[1]")
+	public WebElement Patient_ID_txt;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='scrollableTBodyThreeFourth']/table/tbody/tr/td[2]")
+	public WebElement Patient_fullname_txt;
+	
 	@FindBy(how = How.NAME, using = "firstName")
 	public WebElement patientsearch_firstname_txt;
 
@@ -726,7 +733,13 @@ public class Webmoduleobjects extends Driver {
 
 	@FindBy(how = How.XPATH, using = "//*[@id='scrollableTBodyThreeFourth']/table/tbody/tr/td[3]")
 	public WebElement patient_dobin_table;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id='scrollableTBodyThreeFourth']/table/tbody/tr/td[4]")
+	public WebElement Patient_address_txt;
 
+	@FindBy(how = How.XPATH, using = "//*[@id='scrollableTBodyThreeFourth']/table/tbody/tr/td[5]")
+	public WebElement Patient_tel_txt;
+	
 	public String patientDOBinTable() {
 		String dob = patient_dobin_table.getAttribute("value");
 		return dob;
@@ -882,6 +895,10 @@ public class Webmoduleobjects extends Driver {
 	@FindBy(how = How.LINK_TEXT, using = "<< Previous Prescription")
 	public WebElement previousPrescription_btn;
 
+	// Benefit Patient rxhubPBMUniqueId
+	@FindBy(how = How.XPATH, using = "//*[@id='rxhubPBMUniqueId']/option[2]")
+	public WebElement rxhubPBMUniqueId_txt;
+	
 	// Confirmprescription, reset can be used above linktext
 	@FindBy(how = How.NAME, using = "drugName")
 	public WebElement drugName_txt;

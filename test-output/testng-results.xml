@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43202" started-at="2021-08-02T08:24:21Z" finished-at="2021-08-02T08:25:04Z">
+  <suite name="Default suite" duration-ms="41463" started-at="2021-11-19T08:36:43Z" finished-at="2021-11-19T08:37:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43202" started-at="2021-08-02T08:24:21Z" finished-at="2021-08-02T08:25:04Z">
-      <class name="com.ys.h2hdrx.webmodule.Rxfill">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ys.h2hdrx.webmodule.Rxfill@39c0f4a]" name="beforeTest" is-config="true" duration-ms="34935" started-at="2021-08-02T13:54:21Z" finished-at="2021-08-02T13:54:56Z">
+    <test name="Default test" duration-ms="41463" started-at="2021-11-19T08:36:43Z" finished-at="2021-11-19T08:37:24Z">
+      <class name="com.ys.h2hdrx.webmodule.Initiate_epa">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ys.h2hdrx.webmodule.Initiate_epa@39c0f4a]" name="beforeTest" is-config="true" duration-ms="35278" started-at="2021-11-19T14:06:43Z" finished-at="2021-11-19T14:07:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Rxfill_view()[pri:47, instance:com.ys.h2hdrx.webmodule.Rxfill@39c0f4a]" name="Rxfill_view" duration-ms="8238" started-at="2021-08-02T13:54:56Z" finished-at="2021-08-02T13:55:04Z">
+        <test-method status="PASS" signature="BenefitpatientSearch()[pri:52, instance:com.ys.h2hdrx.webmodule.Initiate_epa@39c0f4a]" name="BenefitpatientSearch" duration-ms="6158" started-at="2021-11-19T14:07:18Z" finished-at="2021-11-19T14:07:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Rxfill_view -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ys.h2hdrx.webmodule.Rxfill@39c0f4a]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-08-02T13:55:04Z" finished-at="2021-08-02T13:55:04Z">
+        </test-method> <!-- BenefitpatientSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ys.h2hdrx.webmodule.Initiate_epa@39c0f4a]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-11-19T14:07:24Z" finished-at="2021-11-19T14:07:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.ys.h2hdrx.webmodule.Rxfill -->
+      </class> <!-- com.ys.h2hdrx.webmodule.Initiate_epa -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

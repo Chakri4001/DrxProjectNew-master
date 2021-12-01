@@ -60,9 +60,9 @@ public class AddToMedication  {
 			 PatientSearch ps = new PatientSearch();
 		      ps.driver = driver;
 		      ps.patientSearch();
-		      /*Rxpad rxp = new Rxpad();
+		      Rxpad rxp = new Rxpad();
 		      rxp.driver=driver;
-				 rxp.Confirmprescription();*/
+				 rxp.Confirmprescription();
 	  }
 
 	  @AfterTest
